@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 import Event from './Event';
+import { events } from './data.js';
 
 const Wrapper = styled.div`
   display: grid;
@@ -18,8 +19,11 @@ function renderHome() {
 }
 
 function renderEvent(routerData) {
-  const eventId = routerData.match.params.deckId;
-  return <Event id={eventId} />;
+  const eventId = routerData.match.params.id;
+  const event = events.find(event => {
+    return event.id === eventId;
+  });
+  return <Event id={event} />;
 }
 
 function App() {
