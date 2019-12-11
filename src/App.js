@@ -16,6 +16,9 @@ const Wrapper = styled.div`
 
 const Events = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
 `;
 
 //This function renders all the events in the landing page, using data from the 'data.js' file.

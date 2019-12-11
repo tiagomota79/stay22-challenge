@@ -45,6 +45,6 @@ export const events = [
     image:
       'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F81609615%2F96832218735%2F1%2Foriginal.20191118-140200?w=800&auto=compress&rect=103%2C0%2C544%2C272&s=cec1b74a6979f4e3b00980bb6dfba983',
     eventURL:
-      'https://www.eventbrite.fr/e/le-marche-de-noel-de-grenade-tickets-82607107081?aff=ebdssbdestsearch',
+      'https://www.eventbrite.ca/e/le-marche-de-noel-de-grenade-tickets-82607107081?aff=ebdssbdestsearch',
   },
 ];
