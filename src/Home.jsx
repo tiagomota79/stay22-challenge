@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Card = styled.div`
-  border: 1px solid #f0f0f0
+  border: 1px solid #f0f0f0;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;

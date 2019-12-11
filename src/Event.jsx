@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 const EventBox = styled.div`
   display: flex;
@@ -47,6 +46,7 @@ class Event extends Component {
           width='100%'
           height='460'
           frameBorder='0'
+          title='Stay22 Map Widget showing hosting options near the event area'
         ></iframe>
         <Button href={this.props.event.eventURL} target='_blank'>
           Go to event page
