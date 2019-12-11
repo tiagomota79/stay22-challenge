@@ -1,6 +1,6 @@
 export const events = [
   {
-    id: 1,
+    id: 0,
     name: 'Cowboy Meets Pirate Christmas Party',
     date: '2019-12-21',
     locationName: 'Piranha Bar',
@@ -12,7 +12,7 @@ export const events = [
       'https://www.eventbrite.com/e/cowboy-meets-pirate-christmas-party-tickets-84695774341?aff=ebdssbdestsearch',
   },
   {
-    id: 2,
+    id: 1,
     name: 'Fêtons Noël, lets celebrate Christmas',
     date: '2019-12-21',
     locationName: 'Restaurant Monot Cuisine Libanaise',
@@ -24,7 +24,7 @@ export const events = [
       'https://www.eventbrite.ca/e/fetons-noel-lets-celebrate-christmas-tickets-85448923029?aff=ebdssbdestsearch',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Party de Noël | La Piscine',
     date: '2019-12-11',
     locationName: 'La Piscine',
@@ -36,7 +36,7 @@ export const events = [
       'https://www.eventbrite.ca/e/billets-party-de-noel-la-piscine-80766760555?aff=ebdssbdestsearch',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Le Marché de Noël de Grenade',
     date: '2019-12-14',
     locationName: "L'Anticafé",

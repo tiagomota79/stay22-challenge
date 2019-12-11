@@ -14,25 +14,52 @@ const Wrapper = styled.div`
   background: #f0f0f0;
 `;
 
+const Events = styled.div`
+  display: flex;
+`;
+
+//This function renders all the events in the landing page, using data from the 'data.js' file.
 function renderHome() {
-  return <Home />;
+  return (
+    <Events>
+      {events.map(event => (
+        <Home
+          id={event.id}
+          name={event.name}
+          date={event.date}
+          locationName={event.locationName}
+          location={event.location}
+          organizer={event.organizer}
+          image={event.image}
+          eventURL={event.eventURL}
+        />
+      ))}
+    </Events>
+  );
 }
 
+//This function renders a new page with the selected event, showing the Stay22 map.
 function renderEvent(routerData) {
   const eventId = routerData.match.params.id;
-  const event = events.find(event => {
-    return event.id === eventId;
-  });
-  return <Event id={event} />;
+  console.log('eventId', eventId);
+  console.log('events', events);
+  // const eventToShow = events.find(event => {
+  //   return event.id === eventId;
+  // });
+  console.log('eventToShow', events[eventId]);
+  return <Event event={events[eventId]} />;
 }
 
+//Very basic navigation with only two routes and persistend NavBar.
 function App() {
   return (
     <BrowserRouter>
       <Wrapper>
         <Navbar />
-        <Route path='/' exact render={renderHome} />
-        <Route path='/event/:eventId' render={renderEvent} />
+        <div>
+          <Route path='/' exact render={renderHome} />
+          <Route path='/event/:id' render={renderEvent} />
+        </div>
       </Wrapper>
     </BrowserRouter>
   );
