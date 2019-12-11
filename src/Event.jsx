@@ -25,6 +25,14 @@ const Button = styled.a`
   padding: 2%;
   margin-top: 2%;
   border-radius: 50px;
+  transition: all 0.25s ease-in-out;
+
+  :hover {
+    color: #2744f5;
+    background-color: #f0f0f0;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+  }
 `;
 
 //This component displays the selected event with the Stay22 widget, using information passed as props from App.js.
