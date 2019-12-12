@@ -47,4 +47,28 @@ export const events = [
     eventURL:
       'https://www.eventbrite.ca/e/le-marche-de-noel-de-grenade-tickets-82607107081?aff=ebdssbdestsearch',
   },
+  {
+    id: 4,
+    name:
+      'MONTREAL UGLY SWEATER PARTY 2019 @ JET NIGHTCLUB | OFFICIAL MEGA PARTY!',
+    date: '2019-12-21',
+    organizer: 'GPA Events Montreal',
+    locationName: 'Jet Nightclub',
+    location: '2020 Rue Crescent, Montréal, QC H3G 2B8',
+    image:
+      'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F84205927%2F77837906803%2F1%2Foriginal.jpg?h=300&w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C716%2C1274%2C637&s=9d9ffedd7a3b820a284d9e9abd72b457',
+    eventURL:
+      'https://www.eventbrite.ca/e/montreal-ugly-sweater-party-2019-jet-nightclub-official-mega-party-tickets-85745233301?aff=ebdssbdestsearch',
+  },
+  {
+    id: 5,
+    name: 'A Nightmare to Remember - Feat Zone 33, Smartyz, Woblz & More',
+    locationName: 'Blueprint Lounge Montreal',
+    location: '1438 Rue de Bleury, Montréal, QC H3B 2W4',
+    organizer: 'Happy Trippy Family & Montreal Hardcore Resistance',
+    image:
+      'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F82625189%2F308696264884%2F1%2Foriginal.20191126-024158?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C20%2C960%2C480&s=c691d92500cc6243d5f5a869afbb56ce',
+    eventURL:
+      'https://www.eventbrite.ca/e/a-nightmare-to-remember-feat-zone-33-smartyz-woblz-more-tickets-83751650441?aff=ebdssbdestsearch',
+  },
 ];
